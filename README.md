@@ -27,3 +27,5 @@ about it at the start of each recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+A good invariant for the recursive implementation of fib() is that the fibonacci number at n is the sum of the fibonacci numbers at n-1 and n-2 elements in the array fibonacciArray. I chose this invariant because it reflects the definition of a fibonacci series. This invariant will always be ture because the recursive call has to compute the sum of the previous two elements in order to move on to the next one, therefore it holds true in every step of the function. The array is then subsequentially updated. 
