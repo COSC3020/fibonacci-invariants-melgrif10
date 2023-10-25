@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12560267&assignment_repo_type=AssignmentRepo)
 # Fibonacci Invariants
 
 Recall the definition of the Fibonacci series: the first number is 0, the second
@@ -26,3 +27,5 @@ about it at the start of each recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+A good invariant for the recursive implementation of fib() is that as long as n>=2 the fibonacci number at n is the sum of the n-1 and n-2 elements in the array fibonacciArray. I chose this invariant because it reflects the definition of a fibonacci series. This invariant will always be ture because the recursive call has to compute the sum of the previous two elements in order to move on to the next one, therefore it holds true in every step of the function. 
