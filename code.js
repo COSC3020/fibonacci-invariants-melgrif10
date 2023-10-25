@@ -17,7 +17,7 @@ This is because the first number of the fibonacci series has to be 0 to meet the
 If n is equal to 1 then the function returns an array with the elements 0 and 1.
 This is because the first two numbers of a fibonacci sereis have to be 0 and 1 to meet the definition 
 If n is equal to anything else then we can recursively calcuate the fibonacci sereies up to the n-1 element.
-We store all those values in an array called fibonacciArray. 
+We recurringly store those values in an array called fibonacciArray. 
 In order to calculate the nth element we add the two previous elements and then add that value to the end of the array.
 Then just return the fibonacciArray
 */
